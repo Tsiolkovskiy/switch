@@ -1,0 +1,23 @@
+const day = 'thursday';
+
+switch(day){
+    case 'monday':
+        console.log("Plan course structure");
+        break;
+    case 'tuesday':
+        console.log("Prepare videos");
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log("Write code exaples");
+        break;
+    case 'friday':
+        console.log("record videos");
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log("Enjoy the weekend");
+        break;
+    default:
+        console.log("Not a valid day!");
+}
